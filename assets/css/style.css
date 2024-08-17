@@ -6216,8 +6216,11 @@ input:focus {
 }
 
 .mt-100{
-  margin-top: 100px;
+  margin-top: 100px !important;
 }
 .mb-100{
-  margin-bottom: 100px;
+  margin-bottom: 100px !important;
+}
+.mb-50{
+  margin-bottom: 50px !important;
 }
