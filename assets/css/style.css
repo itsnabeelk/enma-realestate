@@ -1944,7 +1944,7 @@ video {
 
 .bg-secondary {
   --tw-bg-opacity: 1;
-  background-color: rgb(179 147 89/var(--tw-bg-opacity));
+  background-color: rgb(31 53 94);
 }
 
 .bg-\[\#EEEEEE\] {
@@ -3125,9 +3125,9 @@ video {
 
 .properties-slider .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
   --tw-border-opacity: 1;
-  border-color: rgb(179 147 89/var(--tw-border-opacity));
+  border-color: rgb(11 44 61);
   --tw-bg-opacity: 1;
-  background-color: rgb(179 147 89/var(--tw-bg-opacity));
+  background-color: rgb(11 44 61);
 }
 
 .review-shadow-card {
@@ -4454,7 +4454,7 @@ input:focus {
 
 .hover\:bg-white:hover {
   --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255/var(--tw-bg-opacity));
+  background-color: rgb(31 53 94);
 }
 
 .hover\:text-secondary:hover {
@@ -6040,9 +6040,9 @@ input:focus {
   }
 
   .xl\:text-lg {
-    font-size: 28px;
+    font-size: 22px;
     line-height: 1.428;
-  }
+}
 
   .xl\:text-\[18px\] {
     font-size: 18px;
@@ -6158,8 +6158,9 @@ input:focus {
 
 
 /* css-start */
-.about-section{
+.about-section {
   margin-top: 100px;
+  margin-bottom: 100px;
 }
 .explore-cities-section {
     padding: 100px 0;
@@ -6531,4 +6532,28 @@ body {
 .banner-text-h span {
   color: #fff !important;
   font-size: 45px;
+}
+
+.btn-readmore{
+  margin-top: 28px;
+  background: #1f355e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  padding: 10px;
+  color: #fff
+}
+
+.about-paragraph p {
+  font-size: 12px;
+}
+.ceo-message p{
+  font-size: 12px;
+}
+.vision-text {
+  font-size: 12px;
+}
+.map-height{
+  height: 500px;
 }
