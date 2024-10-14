@@ -3480,6 +3480,7 @@ video {
 }
 .is-sticky {
   top: 0px !important;
+  position: sticky !important;
 }
 .is-sticky .sticky-dark {
   color: #0B2C3D !important;
@@ -6506,4 +6507,23 @@ body {
   padding: 25px;
   margin-bottom: 10px;
 }
+.form-select:focus {
+  border-color: #dfe3e7 !important;
+  outline: 0;
+  box-shadow: none;
+}
+.form-control {
+  padding: 12px;
+}
+.form-select {
+  padding: 12px;
+}
 /* close */
+
+.carousel-item-custom{
+  width: 100%;
+  display: block;
+  height: 100vh;
+  overflow: hidden;
+  object-fit: cover;
+}
