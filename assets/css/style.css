@@ -6348,6 +6348,7 @@ body {
 }
 .fg-services {
   padding-bottom: 0;
+  overflow-x: hidden !important;
   background: #f6f7f9;
 }
 .fg-services .fg-title {
@@ -6420,11 +6421,11 @@ body {
   padding: 6px 12px;
   position: relative;
   text-decoration: none;
-  border: 2px solid #a2214d;
+  border: 2px solid #1f355e;
   transition: all 0.2s;
 }
 .fg-services .fg_services_item_text a:hover {
-  background: #a2214d;
+  background: #1f355e;
 }
 
 
@@ -6526,4 +6527,8 @@ body {
   height: 100vh;
   overflow: hidden;
   object-fit: cover;
+}
+.banner-text-h span {
+  color: #fff !important;
+  font-size: 45px;
 }
