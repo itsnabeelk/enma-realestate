@@ -11608,10 +11608,10 @@ ol.commentlist li::after {
 /*====revolution slider link button=======*/
 
 .rev-slider-custom-btn {
-	font-size: 16px;
-	font-weight: 600;
-	color: #1f355e;
-	margin-left: 80px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    margin-left: 80px;
 }
 
 .rev-slider-custom-btn2 {
@@ -13413,6 +13413,10 @@ ol.commentlist li::after {
 	}
 	.main-nav-c {
 		padding: 15px 0;
+	}
+
+	.tp-caption .main-slider-heading span{
+		font-size: 40px !important;
 	}
 }
 
