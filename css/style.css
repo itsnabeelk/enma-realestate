@@ -8353,8 +8353,8 @@ ol.comment-list li.comment .comment-respond .comment-form p {
 	/* responsive strat when media screen [991px] css START*/
 	.header-fixed .header-nav .nav {
 		overflow: auto;
-		height: 200px;
-		width: 100%
+		height: auto;
+		width: 100%;
 	}
 
 	.navbar-header {
@@ -13385,4 +13385,37 @@ ol.commentlist li::after {
 		grid-template-columns: auto;
 	}
 	
+}
+
+@media (max-width:992px) {
+	.main-nav-c {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	.display-none-mob{
+		display: none !important;
+	}
+	.header-nav {
+		position: absolute;
+		padding: 0px;
+		z-index: 7;
+		right: 0px;
+		left: 0;
+		top: 85px;
+	}
+	.logo-header-inner img {
+		width: 55px;
+	}
+	.header-nav .nav>li.active>a, .header-nav .nav>li.current-menu-item>a {
+		color: #262423 !important;
+		padding: 15px 35px;
+	}
+	.main-nav-c {
+		padding: 15px 0;
+	}
+}
+
+.color-fill .navbar-toggler .icon-bar {
+    background: #1f355e !important;
 }
